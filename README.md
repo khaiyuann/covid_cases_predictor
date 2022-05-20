@@ -6,7 +6,7 @@ This program is used to develop a LSTM deep learning model that predicts the num
 # How to use
 Clone the repository and use the following scripts per your use case:
 1. train.py is the script that is used to train the model.
-2. categorization_modules.py is the class file that contains the defined functions used in the script for added robustness and reusability of the processes used.
+2. timeseries_modules.py is the class file that contains the defined functions used in the script for added robustness and reusability of the processes used.
 3. The saved model and scaler are available in .h5 and .pkl formats respectively in the 'saved_model' folder.
 4. Screenshots of the model architecture, train/test results, true/prediction values plot, and TensorBoard view are available in the 'results' folder.
 5. Plot of the training and testing process may be accessed through TensorBoard with the log stored in the 'logs' folder.
